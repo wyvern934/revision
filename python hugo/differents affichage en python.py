@@ -1,0 +1,6 @@
+age=int(input("quelle age avez-vous : "))
+nom=(input("quelle est ton nom : "))
+print(f"vous vous appellez {nom}, vous avez {age} ans")
+print("vous vous appellez ", nom, ", vous avez" , age, "ans")
+print("vous vous appellez {}, vous avez {} ans" .format(nom, age))
+print("vous vous appellez "+ nom + ", vous avez" + str(age) + "ans")
